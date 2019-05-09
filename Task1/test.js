@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 var leftBorderWidth = 1;
 let second = 2;
@@ -12,11 +12,11 @@ let person = {
     isMaried: false
 };
 
-console.log(person["name"]);
+console.log(person.name);
 
 let arr = ['plum.png', 'orange.jpg', 'apple.bmp'];
 
-console.log(arr[1])
+console.log(arr[1]);
 
 // alert("Hello World!");
 
@@ -36,8 +36,8 @@ else{
 (2*4 == 8) ? console.log("isTrue") : console.log("isTrue");
 
 /// ????????????????????????????
-let num = 49;
-switch(num){
+let num = 50;
+switch(true){
     case num < 50:
         console.log("Less"); 
         break;        
@@ -52,3 +52,31 @@ switch(num){
         break;    
 }
 /// ??????????????
+
+// for (let index = 0; index < 12; index++) {
+//     console.log(index);    
+// }
+
+let x = [] + 1+ 2;
+console.log(x);
+// alert( "1"[0] );
+//let y = 1; let a = y = 2; alert(a);
+console.log( 2 && 1 && null && 0 && undefined);
+// console.log(0&&undefined);
+// alert( null || 2 && 3 || 4 );
+// alert(false || true);
+let a = [1, 2, 3]; 
+let b = [1, 2, 3];
+if(a==b){
+    console.log("true");
+}
+else {
+    console.log("fasle");
+}
+//a == b ? console.log("true") : console.log("");
+if("яблоко" > "ёжик"){
+    console.log("true")
+}
+else{
+    console.log("false")
+}
